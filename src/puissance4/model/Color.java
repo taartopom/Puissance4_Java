@@ -1,3 +1,5 @@
+/*configuation des couleurs pour le jeu*/
+
 package puissance4.model;
 
 /**

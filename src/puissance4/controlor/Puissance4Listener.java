@@ -1,21 +1,14 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
+
 package puissance4.controlor;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import puissance4.view.Puissance4Vue;
 
-/**
- *
- * @author Francis
- */
 public class Puissance4Listener implements ActionListener {
 
     Puissance4Vue puissance4Vue;
-    //Puissance4 puissance4;
 
     /**
      *
@@ -23,7 +16,6 @@ public class Puissance4Listener implements ActionListener {
      */
     public Puissance4Listener(Puissance4Vue puissance4Vue) {
         this.puissance4Vue = puissance4Vue;
-       // this.puissance4 = puissance4;
     }
 
     @Override
